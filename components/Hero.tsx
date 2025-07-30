@@ -12,12 +12,12 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold text-brand-brown leading-tight">
-                O Sabor{' '}
-                <span className="text-brand-red">Inconfundível</span> da Tradição!
+              Empadas{' '}
+                <span className="text-brand-red">Irresistíveis</span> para Todos os Momentos!
               </h1>
               <p className="text-xl text-gray-700 leading-relaxed">
                 Empadas e tortas artesanais com ingredientes selecionados. 
-                Varejo e atacado para todos os momentos especiais.
+                Peça no varejo ou atacado e surpreenda-se com o sabor e a praticidade.
               </p>
             </div>
 
@@ -63,7 +63,7 @@ export default function Hero() {
           <div className="relative">
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/img/empada-hero.jpg"
+                src="/img/empada-hero.webp"
                 alt="Empada artesanal da Quero Empada"
                 fill
                 className="object-cover"
@@ -74,7 +74,7 @@ export default function Hero() {
             
             {/* Floating badge */}
             <div className="absolute -bottom-4 -left-4 bg-brand-yellow text-brand-brown px-4 py-2 rounded-full shadow-lg">
-              <span className="font-bold">Artisanal</span>
+              <span className="font-bold">Artesanal</span>
             </div>
           </div>
         </div>
