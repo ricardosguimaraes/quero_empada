@@ -9,7 +9,7 @@ const products = [
     name: 'Empada Tradicional',
     price: 'R$ 8,00',
     unit: 'unidade',
-    image: '/img/empada-tradicional.jpg',
+    image: '/img/empada-tradicional.webp',
     description: 'Empada artesanal com massa crocante e recheio generoso'
   },
   {
@@ -17,7 +17,7 @@ const products = [
     name: 'Mini Empadas',
     price: 'R$ 40,00',
     unit: '50 unidades',
-    image: '/img/mini-empadas.jpg',
+    image: '/img/mini-empadas.webp',
     description: 'Pacote com 50 mini empadas perfeitas para eventos'
   },
   {
@@ -25,7 +25,7 @@ const products = [
     name: 'Mini Empadas',
     price: 'R$ 80,00',
     unit: '100 unidades',
-    image: '/img/mini-empadas-100.jpg',
+    image: '/img/mini-empadas-100.webp',
     description: 'Pacote com 100 mini empadas para grandes eventos'
   },
   {
@@ -33,7 +33,7 @@ const products = [
     name: 'Torta',
     price: 'R$ 30,00',
     unit: '~500g',
-    image: '/img/torta.jpg',
+    image: '/img/torta.webp',
     description: 'Torta artesanal com aproximadamente 500g'
   }
 ]
