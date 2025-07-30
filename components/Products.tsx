@@ -108,28 +108,28 @@ export default function Products() {
         </div>
 
         {/* Flavors Section */}
-        <div className="bg-gradient-to-r from-brand-yellow/10 to-brand-red/10 rounded-3xl p-8">
-          <div className="text-center mb-8">
-            <h3 className="text-3xl font-bold text-brand-brown mb-4">
+        <div className="bg-gradient-to-r from-brand-yellow/10 to-brand-red/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8">
+          <div className="text-center mb-6 sm:mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-brand-brown mb-2 sm:mb-4">
               Sabores Disponíveis
             </h3>
-            <p className="text-lg text-gray-600">
+            <p className="text-sm sm:text-base md:text-lg text-gray-600">
               Escolha entre nossos deliciosos sabores artesanais
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
             {flavors.map((flavor, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl p-4 text-center shadow-md hover:shadow-lg transition-shadow duration-200"
+                className="bg-white rounded-lg sm:rounded-xl p-3 sm:p-4 text-center shadow-md hover:shadow-lg transition-shadow duration-200"
               >
-                <div className="w-12 h-12 bg-brand-yellow rounded-full flex items-center justify-center mx-auto mb-3">
-                  <span className="text-brand-brown font-bold text-lg">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-brand-yellow rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
+                  <span className="text-brand-brown font-bold text-base sm:text-lg">
                     {index + 1}
                   </span>
                 </div>
-                <h4 className="font-semibold text-brand-brown">
+                <h4 className="font-semibold text-brand-brown text-sm sm:text-base">
                   {flavor}
                 </h4>
               </div>
