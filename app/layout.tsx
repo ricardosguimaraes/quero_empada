@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: 'Empadas e tortas artesanais com ingredientes selecionados. Varejo e atacado. Frango, Palmito, Pernil, Costela e Queijo.',
   keywords: 'empada, torta, artesanal, varejo, atacado, frango, palmito, pernil, costela, queijo',
   authors: [{ name: 'Quero Empada' }],
+  icons: {
+    icon: '/img/favicon.png',
+    shortcut: '/img/favicon.png',
+    apple: '/img/favicon.png',
+  },
   openGraph: {
     title: 'Quero Empada - O Sabor Inconfundível da Tradição!',
     description: 'Empadas e tortas artesanais com ingredientes selecionados. Varejo e atacado.',
