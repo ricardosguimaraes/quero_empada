@@ -2,82 +2,68 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { CheckCircle, Truck, Star, Package } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="section-padding bg-gradient-to-br from-brand-off-white to-yellow-50">
-      <div className="container-custom">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold text-brand-brown leading-tight">
-                O Sabor{' '}
-                <span className="text-brand-red">Inconfundível</span> da Tradição!
-              </h1>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Empadas e tortas artesanais com ingredientes selecionados. 
-                Varejo e atacado para todos os momentos especiais.
-              </p>
-            </div>
+    <section className="min-h-screen flex items-center relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/img/img-hero.webp)' }}>
+      {/* Overlay para melhorar legibilidade */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/30 to-transparent"></div>
+             <div className="relative z-10 w-full pt-20">
+       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div className="max-w-4xl">
+                     {/* Content */}
+           <div className="space-y-6 md:space-y-8">
+             <div className="space-y-3 md:space-y-4">
+               <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white leading-tight">
+               Empadas{' '}
+                 <span className="text-brand-yellow">Irresistíveis</span> para Todos os Momentos!
+               </h1>
+               <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">
+                 Empadas e tortas artesanais com ingredientes selecionados. 
+                 Peça no varejo ou atacado e surpreenda-se com o sabor e a praticidade.
+               </p>
+             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="https://wa.me/5519986015465"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-primary text-lg px-8 py-4 text-center"
-              >
-                Peça Agora!
-              </Link>
-              <Link
-                href="#produtos"
-                className="bg-transparent border-2 border-brand-brown text-brand-brown font-semibold py-4 px-8 rounded-lg hover:bg-brand-brown hover:text-white transition-colors duration-200 text-center"
-              >
-                Ver Produtos
-              </Link>
-            </div>
+             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+               <Link
+                 href="https://wa.me/5519986015465"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="btn-primary text-base sm:text-lg md:text-base px-6 sm:px-8 md:px-6 py-3 sm:py-4 md:py-3 text-center"
+               >
+                 Peça Agora!
+               </Link>
+               <Link
+                 href="#produtos"
+                 className="bg-transparent border-2 border-white text-white font-semibold py-3 sm:py-4 md:py-3 px-6 sm:px-8 md:px-6 rounded-lg hover:bg-white hover:text-gray-900 transition-colors duration-200 text-center"
+               >
+                 Ver Produtos
+               </Link>
+             </div>
 
-            {/* Features */}
-            <div className="grid grid-cols-2 gap-4 pt-8">
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-brand-yellow rounded-full"></div>
-                <span className="text-sm text-gray-600">Ingredientes Selecionados</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-brand-yellow rounded-full"></div>
-                <span className="text-sm text-gray-600">Varejo e Atacado</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-brand-yellow rounded-full"></div>
-                <span className="text-sm text-gray-600">Entrega Rápida</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-brand-yellow rounded-full"></div>
-                <span className="text-sm text-gray-600">Qualidade Garantida</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Image */}
-          <div className="relative">
-            <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-              <Image
-                src="/img/empada-hero.jpg"
-                alt="Empada artesanal da Quero Empada"
-                fill
-                className="object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
-            
-            {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-brand-yellow text-brand-brown px-4 py-2 rounded-full shadow-lg">
-              <span className="font-bold">Artisanal</span>
-            </div>
+                         {/* Features */}
+             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 pt-8 sm:pt-12">
+               <div className="flex items-center space-x-2 sm:space-x-3">
+                 <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-brand-yellow flex-shrink-0" />
+                 <span className="text-xs sm:text-sm text-white/90 font-medium">Ingredientes Selecionados</span>
+               </div>
+               <div className="flex items-center space-x-2 sm:space-x-3">
+                 <Package className="w-4 h-4 sm:w-5 sm:h-5 text-brand-yellow flex-shrink-0" />
+                 <span className="text-xs sm:text-sm text-white/90 font-medium">Varejo e Atacado</span>
+               </div>
+               <div className="flex items-center space-x-2 sm:space-x-3">
+                 <Truck className="w-4 h-4 sm:w-5 sm:h-5 text-brand-yellow flex-shrink-0" />
+                 <span className="text-xs sm:text-sm text-white/90 font-medium">Entrega Rápida</span>
+               </div>
+               <div className="flex items-center space-x-2 sm:space-x-3">
+                 <Star className="w-4 h-4 sm:w-5 sm:h-5 text-brand-yellow flex-shrink-0" />
+                 <span className="text-xs sm:text-sm text-white/90 font-medium">Qualidade Garantida</span>
+               </div>
+             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )

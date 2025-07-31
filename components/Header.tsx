@@ -5,16 +5,16 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="bg-brand-off-white shadow-sm sticky top-0 z-50">
+    <header className="bg-brand-off-white/60 backdrop-blur-md shadow-lg sticky top-0 z-50 -mb-32">
       <div className="container-custom">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-3 px-4 md:px-0">
                            {/* Logo */}
                  <div className="flex items-center space-x-3">
                    <Image
                      src="/img/logo-quero-empada.png"
                      alt="Quero Empada"
-                     width={200}
-                     height={160}
+                     width={150}
+                     height={80}
                      className="rounded-lg"
                    />
                  </div>
@@ -39,13 +39,16 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Mobile menu button */}
+          {/* Mobile - Apenas botão Peça Agora */}
           <div className="md:hidden">
-            <button className="text-brand-brown hover:text-brand-red">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+            <Link
+              href="https://wa.me/5519986015465"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm px-4 py-2"
+            >
+              Peça Agora!
+            </Link>
           </div>
         </div>
       </div>
