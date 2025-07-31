@@ -6,10 +6,10 @@ import { CheckCircle, Truck, Star, Package } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="min-h-[75vh] flex items-center relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/img/img-hero.webp)' }}>
+    <section className="min-h-screen flex items-center relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/img/img-hero.webp)' }}>
       {/* Overlay para melhorar legibilidade */}
-      <div className="absolute inset-0 bg-black/30"></div>
-             <div className="relative z-10 w-full">
+      <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/30 to-transparent"></div>
+             <div className="relative z-10 w-full pt-20">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
          <div className="max-w-4xl">
                      {/* Content */}
