@@ -7,7 +7,7 @@ export default function Contact() {
     <section className="section-padding bg-gradient-to-br from-brand-brown to-brand-red">
       <div className="container-custom">
         <div className="text-center text-white mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-blueberry">
             Fale Conosco
           </h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto">
@@ -97,7 +97,7 @@ export default function Contact() {
         {/* CTA Section */}
         <div className="text-center mt-16">
           <div className="bg-white rounded-3xl p-8 shadow-xl">
-            <h3 className="text-3xl font-bold text-brand-brown mb-4">
+            <h3 className="text-3xl font-bold text-brand-brown mb-4 font-blueberry">
               Pronto para Experimentar?
             </h3>
             <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">

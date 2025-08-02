@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="bg-brand-off-white/60 backdrop-blur-md shadow-lg sticky top-0 z-50 -mb-32">
+    <header className="bg-brand-off-white/60 backdrop-blur-md shadow-lg sticky top-0 z-50">
       <div className="container-custom">
         <div className="flex items-center justify-between py-3 px-4 md:px-0">
                            {/* Logo */}
