@@ -49,40 +49,7 @@ export default function Hero() {
                 </Link>
               </div>
 
-              {/* Features */}
-              <div className="grid grid-cols-2 gap-6 pt-8">
-                <div className="flex items-start space-x-3">
-                  <CheckCircle className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="text-brand-brown font-semibold text-lg">Ingredientes Selecionados</h3>
-                    <p className="text-brand-brown/80 text-sm">Matéria-prima de primeira qualidade</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <Package className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="text-brand-brown font-semibold text-lg">Varejo e Atacado</h3>
-                    <p className="text-brand-brown/80 text-sm">Para todos os tipos de pedidos</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <Truck className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="text-brand-brown font-semibold text-lg">Entrega Rápida</h3>
-                    <p className="text-brand-brown/80 text-sm">Entregamos em até 24h</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-3">
-                  <Star className="w-6 h-6 text-brand-yellow flex-shrink-0 mt-1" />
-                  <div>
-                    <h3 className="text-brand-brown font-semibold text-lg">Qualidade Garantida</h3>
-                    <p className="text-brand-brown/80 text-sm">Sabor e frescor garantidos</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
 
             {/* Right Section - Image */}

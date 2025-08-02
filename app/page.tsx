@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Features from '@/components/Features'
 import Wholesale from '@/components/Wholesale'
 import Products from '@/components/Products'
 import Contact from '@/components/Contact'
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="min-h-screen bg-brand-off-white">
       <Header />
       <Hero />
+      <Features />
       <Products />
       <Wholesale />
       <Contact />
