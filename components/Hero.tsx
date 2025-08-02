@@ -6,7 +6,7 @@ import { CheckCircle, Truck, Star, Package } from 'lucide-react'
 
 export default function Hero() {
   return (
-    <section className="h-[90vh] flex items-center relative bg-gradient-to-br from-brand-off-white to-orange-50">
+    <section className="py-12 sm:py-16 lg:py-20 flex items-center relative bg-gradient-to-br from-brand-off-white to-orange-50">
       {/* Background pattern similar to the image */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-brand-red to-brand-yellow rounded-full opacity-20 blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
