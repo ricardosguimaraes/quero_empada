@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'blueberry': ['Blueberry', 'cursive'],
       },
     },
   },

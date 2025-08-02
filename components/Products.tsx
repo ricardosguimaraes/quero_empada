@@ -52,7 +52,7 @@ export default function Products() {
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-brand-brown mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-brand-brown mb-4 font-blueberry">
             Nossos Produtos
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -78,7 +78,7 @@ export default function Products() {
               </div>
               
               <div className="space-y-3">
-                <h3 className="text-xl font-bold text-brand-brown">
+                <h3 className="text-xl font-bold text-brand-brown font-blueberry">
                   {product.name}
                 </h3>
                 <p className="text-gray-600 text-sm">
@@ -110,7 +110,7 @@ export default function Products() {
         {/* Flavors Section */}
         <div className="bg-gradient-to-r from-brand-yellow/10 to-brand-red/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8">
           <div className="text-center mb-6 sm:mb-8">
-            <h3 className="text-2xl sm:text-3xl font-bold text-brand-brown mb-2 sm:mb-4">
+            <h3 className="text-2xl sm:text-3xl font-bold text-brand-brown mb-2 sm:mb-4 font-blueberry">
               Sabores Disponíveis
             </h3>
             <p className="text-sm sm:text-base md:text-lg text-gray-600">
