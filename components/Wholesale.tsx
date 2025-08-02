@@ -87,39 +87,50 @@ export default function Wholesale() {
           {/* Right Section - Visual Elements */}
           <div className="relative">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <div className="space-y-6">
+              <div className="space-y-8">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-brand-yellow rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Factory className="w-8 h-8 text-brand-brown" />
+                  <div className="w-20 h-20 bg-brand-yellow rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                    <Factory className="w-10 h-10 text-brand-brown" />
                   </div>
-                  <h3 className="text-white font-bold text-2xl mb-2">Vantagens do Atacado</h3>
-                  <p className="text-white/80">Maximize seus lucros com nossos preços especiais</p>
+                  <h3 className="text-white font-bold text-3xl mb-3">Vantagens do Atacado</h3>
+                  <p className="text-white/80 text-lg">Maximize seus lucros com nossos preços especiais</p>
                 </div>
                 
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-white/80">Preço Unitário</span>
-                    <span className="text-brand-yellow font-bold">Até 40% OFF</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-white/80">Pedido Mínimo</span>
-                    <span className="text-brand-yellow font-bold">50 unidades</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-white/80">Prazo de Entrega</span>
-                    <span className="text-brand-yellow font-bold">24-48h</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-white/80">Formas de Pagamento</span>
-                    <span className="text-brand-yellow font-bold">PIX / Cartão</span>
-                  </div>
-                </div>
+                                 <div className="grid grid-cols-2 gap-6">
+                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
+                     <div className="mb-0">
+                       <span className="text-white/90 font-semibold text-lg">Preço</span>
+                     </div>
+                     <p className="text-brand-yellow text-lg">Condições especiais para compras em quantidade</p>
+                   </div>
+                   
+                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
+                     <div className="mb-0">
+                       <span className="text-white/90 font-semibold text-lg">Pedido Mínimo</span>
+                     </div>
+                     <p className="text-brand-yellow text-lg">A partir de 50 unidades</p>
+                   </div>
+                   
+                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
+                     <div className="mb-0">
+                       <span className="text-white/90 font-semibold text-lg">Prazo de Entrega</span>
+                     </div>
+                     <p className="text-brand-yellow text-lg">Entregamos em 24–48h úteis</p>
+                   </div>
+                   
+                   <div className="bg-white/5 rounded-xl p-3 border border-white/10">
+                     <div className="mb-0">
+                       <span className="text-white/90 font-semibold text-lg">Formas de Pagamento</span>
+                     </div>
+                     <p className="text-brand-yellow text-lg">Aceitamos PIX, Cartão e Dinheiro</p>
+                   </div>
+                 </div>
               </div>
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-4 -right-4 w-20 h-20 bg-brand-yellow rounded-full opacity-20 blur-xl"></div>
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-brand-red rounded-full opacity-20 blur-xl"></div>
+            <div className="absolute -top-4 -right-4 w-24 h-24 bg-brand-yellow rounded-full opacity-20 blur-xl"></div>
+            <div className="absolute -bottom-4 -left-4 w-28 h-28 bg-brand-red rounded-full opacity-20 blur-xl"></div>
           </div>
 
         </div>
