@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Wholesale from '@/components/Wholesale'
 import Products from '@/components/Products'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Products />
+      <Wholesale />
       <Contact />
       <Footer />
     </main>
